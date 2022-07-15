@@ -5,17 +5,18 @@ inputs:
     description: 'Who to greet'
     required: true
   balance:
-    descritpion: 'How much to manipulate the balance'
+    description: 'How much to manipulate the balance'
     required: true
-  reason: 
+  reason:
     description: 'The reason why to manipulate the balance'
-    required: true 
-  token: 
+    required: true
+  token:
     description: 'The mc-host24 api token'
     required: true
 
 outputs:
-  
+  outcome:
+    description: 'The outcome of the action'
 runs:
   using: 'node16'
   main: 'index.js'
