@@ -1,0 +1,21 @@
+name: 'mc-host24 credit'
+description: 'Change the balance of an mc-host24 user'
+inputs:
+  user:
+    description: 'Who to greet'
+    required: true
+  balance:
+    descritpion: 'How much to manipulate the balance'
+    required: true
+  reason: 
+    description: 'The reason why to manipulate the balance'
+    required: true 
+  token: 
+    description: 'The mc-host24 api token'
+    required: true
+
+outputs:
+  
+runs:
+  using: 'node16'
+  main: 'index.js'
